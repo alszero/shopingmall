@@ -69,7 +69,10 @@
 *::after {
   box-sizing: border-box;
 }
-
+.headerimg{
+  width: 100%;
+  height: auto;
+}
 @media (prefers-reduced-motion: no-preference) {
   :root {
     scroll-behavior: smooth;
@@ -4608,6 +4611,7 @@ textarea.form-control-lg {
 .card-img-top,
 .card-img-bottom {
   width: 100%;
+  height: auto;
 }
 
 .card-img,
